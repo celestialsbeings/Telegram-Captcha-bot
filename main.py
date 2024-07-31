@@ -5,6 +5,8 @@ import sqlite3
 from PIL import Image, ImageDraw, ImageFont
 import os
 import math
+from keep_alive import keep_alive
+keep_alive()
 
 # إعداد توكن البوت ومعرّف القنوات
 BOT_TOKEN = '7498690398:AAGlifuFPAEOGFVeWZbsSJ9glhSvybBVw_s'
